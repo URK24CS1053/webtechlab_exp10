@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #263b53;
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > label {
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 5px;
+}
+
+.options label {
+    font-weight: normal;
+}
+
+button {
+    margin-top: 24px;
+    padding: 12px;
+    background-color: #1769aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #104d80;
+}
